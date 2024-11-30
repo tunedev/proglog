@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	CAFILE = configFile("ca.pem")
+	CAFile = configFile("ca.pem")
 	ServerCertFile = configFile("server.pem")
 	ServerKeyFile = configFile("server-key.pem")
 	RootClientCertFile = configFile("root-client.pem")
