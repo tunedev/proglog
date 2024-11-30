@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	write = []byte("hello world")
+	write = []byte("hello world, i am here to stay")
 	width = uint64(len(write)) + lenWidth
 )
 
